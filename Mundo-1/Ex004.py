@@ -1,0 +1,12 @@
+# Crie um programa que mostre tudo relacionado a uma variável
+n = input('Digite algo:' )
+print(f'O seu tipo de variável é: {type(n)}')
+print(f'É alfabético? {n.isalpha()}')
+print(f'É numérico? {n.isnumeric()}')
+print(f'É alfanumérico? {n.isalnum()}')
+print(f'Está em maiúsculo? {n.isupper()}')
+print(f'Está em minúsculo? {n.islower()}')
+print(f'Está captalizada? {n.istitle()}')
+print(f'É um único dígito?{n.isdigit()}')
+print(f'Está em ASCII? {n.isascii()}')
+print(f'É um decimal? {n.isdecimal()}')
